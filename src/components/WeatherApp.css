@@ -1,0 +1,126 @@
+.weather-app-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #4ccaf0, #c6c7c7);
+    color: #fff;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+
+  .weather-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .weather-icon img {
+    width: 95px; 
+  }
+  
+  .city-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .city-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0; 
+    margin-right: 350px;
+  }
+  
+  .date {
+    font-size: 12px;
+    margin-top: 0; 
+    margin-right: 385px;
+    margin-bottom: 0;
+  }
+  
+  .weather-card {
+    width: 550px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .temperature-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+  }
+  
+  .temperature-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .temperature {
+    font-size: 122px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 5px; 
+    margin-bottom: 0;
+  }
+  
+  .celsius-icon {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .weather-description {
+    text-transform: capitalize;
+    text-align: center;
+    margin-top:0; 
+    font-size: 14px;
+  }
+  
+  .card-bottom {
+    display: flex;
+    align-items: center;
+  }
+  
+  .additional-info {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .info-item {
+    margin-top: 50px;
+    flex: 1;
+    text-align: center;
+  }
+
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+  }
+  
+  input {
+    margin-right: 10px; 
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
